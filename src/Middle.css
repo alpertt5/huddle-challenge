@@ -1,0 +1,115 @@
+.middle-container{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.card {
+    width: 85vw;
+    height: 45vh;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(177, 166, 166, 0.2), 0 6px 20px 0 rgba(156, 147, 147, 0.19);
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin: 50px 0px 0px 0px;
+    display: flex;
+}
+
+
+.text-section-card{
+    width: 60%;
+}
+
+.text-section-card h1{
+    margin: 120px 120px 10px 120px;
+    width: 50%;
+    font-weight: 400;
+}
+
+.text-section-card p{
+    margin: 10px 100px 10px 120px;
+    color: grey;
+    width: 65%;
+}
+
+.image-section-card{
+    width: 40%;
+}
+
+.card-image{
+    height: 80%;
+    float: right;
+    margin: 40px 40px 40px 0px;
+}
+
+.img1 {
+    content: url("./images/illustration-grow-together.svg");
+}
+
+.img2 {
+    content: url("./images/illustration-flowing-conversation.svg");
+}
+
+.img3 {
+    content: url("./images/illustration-your-users.svg");
+}
+
+
+@media (max-width: 960px) {
+    .middle-container{
+        margin: auto;
+    }
+
+    .card {
+        width: 90vw;
+        height: 85vh;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(177, 166, 166, 0.2), 0 6px 20px 0 rgba(156, 147, 147, 0.19);
+        border-radius: 15px;
+        font-family: 'Poppins', sans-serif;
+        margin: 50px 20px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .text-section-card{
+        width: 80%;
+    }
+
+    .card{
+        flex-direction: column-reverse;
+    }
+
+    .card2{
+        flex-direction: column;
+    }
+
+    .text-section-card h1{
+        margin: auto;
+        width: 100%;
+        font-weight: 400;
+        position: relative;
+        bottom: 60px;
+    }
+
+    .text-section-card p{
+        margin: auto;
+        color: grey;
+        width: 100%;
+        position: relative;
+        bottom: 40px;
+    }
+
+    .image-section-card{
+        align-items: center;
+        width: 80%;
+        height: 40%;
+        margin: auto;
+    }
+
+    .card-image{
+        height: 100%;
+        float: none;
+        margin: auto;
+    }
+}
